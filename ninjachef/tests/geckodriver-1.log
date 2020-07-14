@@ -1,0 +1,12 @@
+1594740829447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Railane\\AppData\\Local\\Temp\\rust_mozprofile0DmNwn"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594740839444	Marionette	INFO	Listening on port 49709
+1594740839560	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594740847166	Marionette	INFO	Stopped listening on port 49709
+[Parent 5632, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB40006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
