@@ -3,8 +3,8 @@ Documentation       Suite dos testes de cadastro
 
 Library     SeleniumLibrary
 
-Test Setup      Open Session        #Opem Browser 
-Test Teardown   Close Session       #Close Browser
+Test Setup      Open Session        # Antes de cada TestCase
+Test Teardown   Close Session       # Ap[os cada TestCase
 
 ***Test Cases***
 Cadastro simples
@@ -23,7 +23,7 @@ Quando submeto o meu email "${email}"
 Então devo ser autenticado
     Wait Until Page Contains Element     class:dashboard
 
-## Hooks
+## Hooks >> Ganchos
 Open Session
     Open Browser    about:blank     firefox
 
