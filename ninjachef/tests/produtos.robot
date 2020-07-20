@@ -6,12 +6,12 @@ Documentation       Cadastro de produtos/pratos
 
 Resource            ../resourses/base.robot
 
-Test Setup          Open Session        # Antes de cada TestCase
-Test Teardown       Close Session       # Após cada TestCase
+Test Setup          Login Session       joao@gmail.com
+Test Teardown       Close Session
 
 ***Variables***
 ## Objeto do tipo dicionário.
-&{lasanha}=          nome=Lasanha de Carne       tipo=Massas     preco=15.00
+&{lasanha}=          img=lasanha.png    nome=Lasanha de Carne       tipo=Massas     preco=15.00
 
 ****Test Cases***
 Novo prato

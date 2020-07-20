@@ -4,6 +4,7 @@ Documentation       Aqui temos a estrutura base do projeto, o Selenium é import
 Library             SeleniumLibrary
 
 Resource            kws.robot
+Resource            helpers.robot
 
 ***Keywords***
 ## Hooks >> Ganchos

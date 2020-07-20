@@ -22,10 +22,15 @@ Dado que "${produto}" é um dos meus pratos
     Set Test Variable       ${produto}
 
 Quando faço o cadastro desse item
-    Click Element           clas:btn-add
+    Wait Until Element Is Visible       class:btn-add       5
+    Click Element                       class:btn-add
+
+    Choose File             css:input[id=thumbnail]     ${EXECDIR}\\resourses\\images\\${produto['img']}
+
     Input Text              id:name         ${produto['nome']}
     Input Text              id:plate        ${produto['tipo']}
     Input Text              id:price        ${produto['preco']}
+    Sleep                   10
     Click Element           class:btn-cadastrar
 
 Então devo ver este prato no meu dashboard
