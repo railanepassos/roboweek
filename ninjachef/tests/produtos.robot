@@ -11,7 +11,7 @@ Test Teardown       Close Session
 
 ***Variables***
 ## Objeto do tipo dicionário.
-&{lasanha}=          img=lasanha.png    nome=Lasanha de Carne       tipo=Massas     preco=15.00
+&{lasanha}=     foto=lasanha.png        nome=Lasanha de Carne       tipo=Massas     preco=15.00
 
 ****Test Cases***
 Novo prato
