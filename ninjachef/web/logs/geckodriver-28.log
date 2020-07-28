@@ -1,0 +1,6 @@
+1595207697188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Railane\\AppData\\Local\\Temp\\rust_mozprofilerQJ5J5"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595207713603	Marionette	INFO	Listening on port 52741
+1595207713762	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595207721383	Marionette	INFO	Stopped listening on port 52741
+[Parent 5284, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
