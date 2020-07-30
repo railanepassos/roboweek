@@ -9,7 +9,7 @@ Test Teardown       Close Session       # Após cada TestCase
 ***Test Cases***
 Cadastro simples
     Dado que acesso a página principal
-	Quando submeto o meu email "joao@gmail.com"
+	Quando submeto o meu email "joao@teste.com"
     Então devo ser autenticado
 
 Email incorreto

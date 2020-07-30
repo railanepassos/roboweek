@@ -4,9 +4,9 @@ Documentation       Cadastro de produtos/pratos
 ...                 Quero cadastrar meus melhores pratos
 ...                 Para que eu possa cozinha-los para outras pessoas
 
-Resource            ../resourses/base.robot
+Resource            ../resources/base.robot
 
-Test Setup          Login Session       joao@gmail.com
+Test Setup          Login Session       joao@teste.com
 Test Teardown       Close Session
 
 ***Variables***

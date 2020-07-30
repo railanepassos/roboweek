@@ -25,7 +25,7 @@ Quando faço o cadastro desse item
     Wait Until Element Is Visible       ${BOTAO_ADD}       5
     Click Element                       ${BOTAO_ADD}
 
-    Choose File             ${CAMPO_FOTO}     ${EXECDIR}\\resourses\\images\\${produto['img']}
+    Choose File             ${CAMPO_FOTO}           ${EXECDIR}${/}\\resources\\images\\${produto['img']}
 
     Input Text              ${CAMPO_NOME}           ${produto['nome']}
     Input Text              ${CAMPO_TIPO}           ${produto['tipo']}
