@@ -1,0 +1,13 @@
+1596232140824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\RAILAN~1\\AppData\\Local\\Temp\\rust_mozprofileW6keZD"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1596232145401	Marionette	INFO	Listening on port 53164
+1596232145781	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596232147424	Marionette	INFO	Stopped listening on port 53164
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+[Parent 16796, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

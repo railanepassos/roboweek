@@ -1,0 +1,8 @@
+1596230407639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\RAILAN~1\\AppData\\Local\\Temp\\rust_mozprofilekjLYtv"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1596230412579	Marionette	INFO	Listening on port 65153
+1596230413060	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596230416130	Marionette	INFO	Stopped listening on port 65153
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
